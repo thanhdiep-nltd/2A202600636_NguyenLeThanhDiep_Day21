@@ -50,6 +50,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+lab21_lora_t4/
 
 # Translations
 *.mo

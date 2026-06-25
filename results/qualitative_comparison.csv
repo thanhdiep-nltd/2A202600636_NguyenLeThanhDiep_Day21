@@ -1,0 +1,49 @@
+prompt,base,finetuned
+Giải thích khái niệm machine learning cho người mới bắt đầu.,"Machine learning là một kỹ thuật trong trí tuệ nhân tạo, giúp máy tự động học và cải thiện dựa trên dữ liệu mà không cần phải viết code thủ công. Khi máy học từ dữ liệu, nó tìm ra các quy luật và xu hướng trong dữ liệu và sử dụng các mô hình để dự đoán kết quả tương lai. Machine learning có thể được","Machine learning là một kỹ thuật trong công nghệ thông tin giúp máy tự học và cải thiện các kỹ năng của mình dựa trên dữ liệu. Nó sử dụng thuật toán để phân tích và học từ dữ liệu lớn, từ đó tạo ra mô hình dự đoán hoặc quyết định dựa trên dữ liệu mới. Machine learning có thể được sử dụng để giải quy"
+Viết đoạn code Python tính số Fibonacci thứ n.,"Dưới đây là đoạn code Python để tính số Fibonacci thứ n:
+
+```python
+def fibonacci(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
+# Ví dụ sử dụng
+n = 10
+print(f""Số Fibonacci thứ {n} là: {fibonacci(n)}"")
+```
+
+Điều này","Dưới đây là đoạn code Python để tính số Fibonacci thứ n:
+
+```python
+def fibonacci(n):
+    if n <= 0:
+        return None
+    elif n == 1:
+        return 0
+    elif n == 2:
+        return 1
+    else:
+        a, b = 0, 1
+        for _ in range(2, n):
+            a, b = b, a + b
+        return b
+
+# Sử "
+Liệt kê 5 nguyên tắc thiết kế UI/UX.,"1. Kiểm tra tính khả thi: Xác định cách người dùng có thể tương tác với UI/UX để đạt được mục đích của họ.
+2. Tạo sự đơn giản: Giảm bớt các yếu tố không cần thiết và làm cho UI/UX dễ sử dụng và dễ hiểu.
+3. Sử dụng màu sắc và hình ảnh: Sử dụng màu sắc và hình ảnh để tạo sự nổi bật và thu hút sự chú ý","Dưới đây là 5 nguyên tắc thiết kế UI/UX:
+
+1. Giữ thiết kế đơn giản: Thay vì tạo nhiều chức năng và thông tin trên giao diện, hãy tập trung vào những chức năng và thông tin quan trọng nhất để giúp người dùng dễ dàng sử dụng và hiểu được mục đích của ứng dụng hoặc website.
+
+2. Giữ bố cục và bố trí bố "
+Tóm tắt sự khác biệt giữa LoRA và QLoRA.,LoRA (Large Language Models) và QLoRA (Quantized Large Language Models) là hai cách tiếp cận khác nhau để sử dụng các mô hình LLM lớn hơn và có khả năng xử lý nhiều thông tin hơn. LoRA là một phương pháp để giảm kích thước mô hình bằng cách loại bỏ một số trọng số và thêm một số trọng số phụ để phục,"LoRA (Low-Rank Adaptation) và QLoRA (Quantized LoRA) là hai kỹ thuật khác nhau được sử dụng để cải thiện hiệu suất của mô hình máy học dựa trên ma trận. LoRA sử dụng ma trận bổ sung (add-on matrix) để thay đổi các ma trận trọng số của mô hình. Trong khi đó, QLoRA sử dụng kỹ thuật quantization (đếm s"
+"Phân biệt prompt engineering, RAG, và fine-tuning.","Prompt engineering, RAG, và fine-tuning là ba khái niệm khác nhau trong lĩnh vực NLP (Nghiên cứu máy tính và ngôn ngữ). Dưới đây là phân biệt của từng khái niệm:
+
+1. Prompt engineering:
+Prompt engineering là một kỹ thuật để thiết kế prompt (câu hỏi, hướng dẫn hoặc câu lệnh) để tạo ra kết quả tốt hơn","Prompt engineering, RAG (Reinforcement Agents with Guidance) và fine-tuning là ba cách khác nhau để cải thiện hiệu suất của mô hình máy học. Mỗi cách có những đặc điểm và ưu điểm riêng.
+
+1. Prompt engineering: Prompt engineering là quá trình thiết lập câu hỏi, câu lệnh hoặc câu lệnh để hướng dẫn mô "
